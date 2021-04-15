@@ -1,0 +1,63 @@
+1. 빈칸에 들어갈 키워드를 쓰시오.
+Class Parent {
+	public void show() {
+		System.out.println("Parent")'
+	}
+}
+class Child extends Parent {
+	public void show() {
+		System.out.println("Child");
+	}
+}
+public class Main {
+	public static void main(String[] args) {
+		Parent pa= ___빈칸____Child();
+		pa.show();
+	}
+}
+
+2. 다음 C언어의 소스코드 출력 결과를 쓰시오.
+#include <stdio.h>
+void main(){
+	int i=0, c=0;
+	while(i<10){
+		i++;
+		c*=i;
+}
+
+
+3. 다음 자바 코드의 출력 결과를 쓰시오.
+class SuperClass {
+	SuperClass( ) {
+		System.out.print( "Super" );
+	}
+}
+class SubClass extends SuperClass {
+	SubClass( ) {
+		System.out.print( "Sub" );
+	}
+}
+class Sujebi {
+	public static void main(String[] args) {
+		SuperClass s = new SubClass( )'
+	}
+}
+
+4. 다음 C언의 소스코드의 출력 결과를 쓰시오.
+#include <stdio.h>
+void main(){
+	int i=0;
+	int sum=0;
+	for( i=1 ' i <= 10 ; i++ ) {
+		if( i % 3 == 0 ) {
+			sum += i;
+		}
+	}
+	printf( "%d", sum);
+}
+
+5. 다음 파이썬 코드의 출력 결과를 쓰시오.
+>>> lol = [[1,2,3], [4,5,6], [7,8,9]]
+>>> for sub in lol;
+...      for item in sub:
+...	print(item, end="")
